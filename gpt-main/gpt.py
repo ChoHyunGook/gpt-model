@@ -175,7 +175,7 @@ urllib.request.urlretrieve(
 )
 Chatbot_Data = pd.read_csv("ChatBotData.csv")
 # Test 용으로 300개 데이터만 처리한다.
-Chatbot_Data = Chatbot_Data[:300]
+Chatbot_Data = Chatbot_Data[:11824]
 Chatbot_Data.head()
 
 USE_CUDA = torch.cuda.is_available()
